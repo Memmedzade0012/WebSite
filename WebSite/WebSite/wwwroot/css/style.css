@@ -1,0 +1,272 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    list-style: none !important;
+    text-decoration: none !important;
+}
+
+body {
+    height: 1000px;
+}
+
+.header {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.header-container {
+    height: 100%;
+    width: 1450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.search-container {
+    background: white;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    padding: 10px 20px;
+    border: 3px solid #015593;
+}
+
+    .search-container input {
+        border: none;
+        outline: none;
+    }
+
+.menu {
+    display: flex;
+    gap: 45px;
+}
+
+    .menu a {
+        color: #24262b;
+        font-size: 23px;
+        transition: 0.40s;
+        font-family: 'Lato', sans-serif;
+    }
+
+        .menu a:hover {
+            color: #015593;
+        }
+
+.footer {
+    background-color: #24262b;
+    padding: 70px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-container {
+    width: 1450px;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.rows {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-col h4 {
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    position: relative;
+    color: #ffd600;
+}
+
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.footer-col ul {
+    padding-left: 0;
+}
+
+    .footer-col ul li a {
+        font-size: 16px;
+        text-transform: capitalize;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        font-weight: 500;
+        transition: 0.40s;
+    }
+
+        .footer-col ul li a:hover {
+            color: #ffd600;
+        }
+
+.fa-brands {
+    color: white;
+    transition: 0.40s;
+}
+
+.footer-col ul li:hover i {
+    color: #ffd600;
+}
+
+.footer-col:last-child li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    width: 35px;
+    font-size: 18px;
+    background-color: gray;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.footer-col:last-child ul {
+    display: flex;
+    gap: 20px;
+}
+
+.slide-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+
+.font1 {
+    font-size: 4.5rem;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    color: #015593;
+}
+
+.swiper-pagination-bullet {
+    --swiper-pagination-color: #015593
+}
+
+
+.Slider {
+    margin-top: 120px;
+    height: 750px;
+    width: 100%;
+}
+
+#up-button {
+    position: fixed;
+    bottom: 35px;
+    right: 35px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: #015593;
+    border: none;
+    opacity: 0;
+    transition: 0.20s;
+}
+
+    #up-button i {
+        font-size: 25px;
+        color: white;
+    }
+
+.Product {
+    height: 800px;
+    margin: 90px 0 90px 0;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    height: 700px;
+}
+
+.products-container {
+    width: 1450px;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-top {
+    margin-bottom: 40px;
+}
+
+.product-bottom {
+    height: 733px;
+    display: grid;
+    grid-template-columns: 650px 650px;
+    grid-column-gap: 110px;
+    grid-row-gap: 50px;
+    grid-template-rows: 290px 290px;
+}
+
+.product-items {
+    display: flex;
+    gap: 60px;
+    background-color: #24262b;
+    border-radius: 10px;
+}
+
+
+.font2 {
+    font-size: 3.5rem;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    color: #24262b;
+}
+
+.font3 {
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    color: #ffd600;
+    width: 300px;
+}
+
+.product-item-right {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+.product-item-left img {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.product-item-right p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.About {
+    height: 350px;
+    margin: 70px 0 150px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-container {
+    width: 1450px;
+}
+
+.paragraph-font {
+    color: rgb(94, 93, 93);
+    font-size: 25px;
+    font-family:Arial;
+}
+
+.about-bottom {
+    margin-top: 40px;
+}

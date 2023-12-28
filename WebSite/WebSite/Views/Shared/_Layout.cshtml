@@ -1,0 +1,104 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="~/css/style.css">
+    <link rel="stylesheet" href="~/css/style.css">
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+
+    <button id="up-button">
+        <i class="fa-solid fa-chevron-up"></i>
+    </button>
+
+    <header>
+        <div class="header">
+            <div class="header-container">
+                <div class="logo">
+                    <img src="Imgs/sweLogo.jpg" alt="" style="width: 256px;height: 65px;object-fit: contain;">
+                </div>
+
+                <ul class="menu">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">Contacts</a></li>
+                    <li><a href="">About</a></li>
+                </ul>
+
+                <div class="search" style="width: 234px;">
+                    <div class="search-container">
+                        <input type="text" placeholder="Search">
+                        <a href="">
+                            <i class="fa-solid fa-magnifying-glass" style="color: #015593;"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    @RenderBody()
+
+    <footer>
+        <div class="footer">
+            <div class="footer-container">
+                <div class="rows">
+                    <div class="footer-col">
+                        <h4>Word</h4>
+                        <ul>
+                            <li><a href="">About us</a></li>
+                            <li><a href="">Services</a></li>
+                            <li><a href="">Privacy policy</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-col">
+                        <h4>Word</h4>
+                        <ul>
+                            <li><a href="">FAQ</a></li>
+                            <li><a href="">Price</a></li>
+                            <li><a href="">Product details</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-col">
+                        <h4>Word</h4>
+                        <ul>
+                            <li><a href="">FAQ</a></li>
+                            <li><a href="">Price</a></li>
+                            <li><a href="">Product details</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-col">
+                        <h4>Contacts</h4>
+                        <ul>
+                            <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-whatsapp"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="~/js/swiper.js"></script>
+    <script src="~/js/main.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
