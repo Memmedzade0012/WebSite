@@ -33,7 +33,7 @@ namespace WebSite.Controllers
         {
             return View();
         }
-        public IActionResult Product()
+        public IActionResult Products()
         {
             return View();
         }
