@@ -1,0 +1,132 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    list-style: none !important;
+    text-decoration: none !important;
+}
+
+body {
+    height: 1000px;
+}
+
+.header {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.header-container {
+    height: 100%;
+    width: 1450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.search-container {
+    background: white;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    padding: 10px 20px;
+    border: 3px solid #015593;
+}
+
+    .search-container input {
+        border: none;
+        outline: none;
+    }
+
+.menu {
+    display: flex;
+    gap: 45px;
+}
+
+    .menu a {
+        color: #24262b;
+        font-size: 23px;
+        transition: 0.40s;
+        font-family: 'Lato', sans-serif;
+    }
+
+        .menu a:hover {
+            color: #015593;
+        }
+
+.footer {
+    background-color: #24262b;
+    padding: 70px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-container {
+    width: 1450px;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.rows {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-col h4 {
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    position: relative;
+    color: #ffd600;
+}
+
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.footer-col ul {
+    padding-left: 0;
+}
+
+    .footer-col ul li a {
+        font-size: 16px;
+        text-transform: capitalize;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        font-weight: 500;
+        transition: 0.40s;
+    }
+
+        .footer-col ul li a:hover {
+            color: #ffd600;
+        }
+
+.fa-brands {
+    color: white;
+    transition: 0.40s;
+}
+
+.footer-col ul li:hover i {
+    color: #ffd600;
+}
+
+.footer-col:last-child li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    width: 35px;
+    font-size: 18px;
+    background-color: gray;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.footer-col:last-child ul {
+    display: flex;
+    gap: 20px;
+}
