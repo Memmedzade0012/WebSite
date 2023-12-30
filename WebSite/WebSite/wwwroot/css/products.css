@@ -37,13 +37,12 @@
     height: 290px;
 }
 
-
-.font4 {
+.font2 {
     font-size: 3.5rem;
     font-weight: 400;
     font-family: 'Lato', sans-serif;
     color: #24262b;
-    text-align:center;
+    text-align: center;
 }
 
 .font3 {

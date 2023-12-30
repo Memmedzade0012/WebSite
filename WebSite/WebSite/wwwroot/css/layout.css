@@ -130,3 +130,21 @@ body {
     display: flex;
     gap: 20px;
 }
+
+#up-button {
+    position: fixed;
+    bottom: 35px;
+    right: 35px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: #015593;
+    border: none;
+    opacity: 0;
+    transition: 0.20s;
+}
+
+    #up-button i {
+        font-size: 25px;
+        color: white;
+    }
