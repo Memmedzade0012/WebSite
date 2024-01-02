@@ -20,3 +20,20 @@ upButton.addEventListener('click', () => {
         upButton.style.cursor = "auto"
     }
 })
+
+const navbaBtn = document.getElementById("navbar-btn")
+const dropDown = document.getElementById("dropdown")
+var dropDownOpen = true
+
+navbaBtn.addEventListener('click', () => {
+    if (dropDownOpen == true) {
+        dropDown.style.height = "294px"
+        dropDownOpen = false
+    }
+    else {
+        dropDown.style.height = "0"
+        dropDownOpen = true
+    }
+})
+
+
