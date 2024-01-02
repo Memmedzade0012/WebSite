@@ -199,6 +199,10 @@
     .font2, .paragraph-font {
         width: 400px;
     }
+
+    .product {
+        height:1300px
+    }
 }
 
 @media only screen and (max-width: 720px) {

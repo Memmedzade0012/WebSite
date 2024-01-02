@@ -6,7 +6,8 @@
 }
 
 body {
-    height: max-content;
+    height: fit-content;
+    witdh: fit-content;
 }
 
 .header {

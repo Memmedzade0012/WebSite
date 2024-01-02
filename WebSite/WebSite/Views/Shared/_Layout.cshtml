@@ -4,11 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link rel="stylesheet" href="~/css/layout.css">
-    <link rel="stylesheet" href="~/css/index.css">
-    <link rel="stylesheet" href="~/css/productDetails.css">
-    <link rel="stylesheet" href="~/css/products.css">
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    @RenderSection("Styles", true)
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Poppins:wght@500&display=swap" rel="stylesheet">
@@ -32,9 +29,8 @@
                 <ul class="menu">
                     <li><a href="~/Home/Index">Home</a></li>
                     <li><a href="~/Home/Products">Products</a></li>
-                    <li><a href="~/Home/Documents">Documents</a></li>
-                    <li><a href="~/Home/Contacts">Contacts</a></li>
-                    <li><a href="~/Home/About">About</a></li>
+                    <li><a href="">Contacts</a></li>
+                    <li><a href="">About</a></li>
                 </ul>
 
                 <div class="search" style="width: 234px;">
@@ -44,6 +40,10 @@
                             <i class="fa-solid fa-magnifying-glass" style="color: #015593;"></i>
                         </a>
                     </div>
+                </div>
+
+                <div class="navbar">
+                    <i class="fa-solid fa-bars fa-2xl" id="navbar-btn" style="color: #015593;"></i>
                 </div>
             </div>
         </div>

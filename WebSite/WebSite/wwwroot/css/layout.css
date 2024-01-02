@@ -6,7 +6,9 @@
 }
 
 body {
-    height: max-content;
+    height: fit-content;
+    witdh:fit-content;
+    margin-bottom:0
 }
 
 .header {
@@ -53,9 +55,7 @@ body {
             color: #015593;
         }
 
-.footer{
-    height:max-content
-}
+
 
 .footer {
     background-color: #24262b;
