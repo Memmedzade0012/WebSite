@@ -25,15 +25,19 @@ namespace WebSite.Controllers
         {
             return View();
         }
+        public IActionResult Products()
+        {
+            return View();
+        }
         public IActionResult ProductDetails()
         {
             return View();
         }
-        public IActionResult About()
+        public IActionResult RD()
         {
             return View();
         }
-        public IActionResult Products()
+        public IActionResult About()
         {
             return View();
         }
